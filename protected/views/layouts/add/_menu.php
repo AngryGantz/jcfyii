@@ -1,11 +1,9 @@
 <?php
-
 $su=false;
 if(Yii::app()->user->checkAccess('aaAdminMenu', '', true)) $su = true;
 
-// if (Yii::app()->user->getIsSuperuser())
-//    $su = true;
 $this->widget('bootstrap.widgets.TbNavbar', array(
+
     'brand' => 'Project JCF',
     'brandUrl' => '/site/index',
     'collapse' => true, // requires bootstrap-responsive.css

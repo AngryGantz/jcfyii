@@ -12,9 +12,8 @@
     </head>
 
     <body>
-        <?php require_once '/add/_menu.php'; ?>
+        <?php require_once 'add/_menu.php'; ?>
         <div class="container" id="page">
-
             <div id="header">
                 <?php
                 if (isset($this->breadcrumbs)):
@@ -24,15 +23,13 @@
                 endif
                 ?> <!-- breadcrumbs -->
             </div><!-- header -->
-<?php echo $content; ?>
+            <?php echo $content; ?>
             <div class="clear"></div>
             <div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-<?php echo Yii::powered(); ?>
+            Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+            All Rights Reserved.<br/>
+            <?php echo Yii::powered(); ?>
             </div><!-- footer -->
-
         </div><!-- page -->
-
     </body>
 </html>

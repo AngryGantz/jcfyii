@@ -1,0 +1,352 @@
+2012/12/14 04:47:51 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/extensions/bootstrap/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(328): CAssetManager->publish('/home/tux/web/j...', false, -1, false)
+#1 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(388): Bootstrap->init()
+#4 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(493): CModule->getComponent('bootstrap')
+#5 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(146): CModule->preloadComponents()
+#6 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(127): CApplication->__construct('/home/tux/web/j...')
+#7 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/tux/web/j...')
+#8 /home/tux/web/jcfyii/index.php(24): YiiBase::createWebApplication('/home/tux/web/j...')
+#9 {main}
+REQUEST_URI=/index.php?XDEBUG_SESSION_START=vim
+---
+2012/12/14 05:16:31 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/extensions/bootstrap/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(328): CAssetManager->publish('/home/tux/web/j...', false, -1, false)
+#1 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(388): Bootstrap->init()
+#4 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(493): CModule->getComponent('bootstrap')
+#5 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(146): CModule->preloadComponents()
+#6 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(127): CApplication->__construct('/home/tux/web/j...')
+#7 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/tux/web/j...')
+#8 /home/tux/web/jcfyii/index.php(24): YiiBase::createWebApplication('/home/tux/web/j...')
+#9 {main}
+REQUEST_URI=/index.php?XDEBUG_SESSION_START=vim
+---
+2012/12/14 05:16:47 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/extensions/bootstrap/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(328): CAssetManager->publish('/home/tux/web/j...', false, -1, false)
+#1 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(388): Bootstrap->init()
+#4 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(493): CModule->getComponent('bootstrap')
+#5 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(146): CModule->preloadComponents()
+#6 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(127): CApplication->__construct('/home/tux/web/j...')
+#7 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/tux/web/j...')
+#8 /home/tux/web/jcfyii/index.php(24): YiiBase::createWebApplication('/home/tux/web/j...')
+#9 {main}
+REQUEST_URI=/catalog/jCategory/view/id/6
+HTTP_REFERER=http://jcfyii/index.php?XDEBUG_SESSION_START=vim
+---
+2012/12/14 05:16:54 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/extensions/bootstrap/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(328): CAssetManager->publish('/home/tux/web/j...', false, -1, false)
+#1 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 /home/tux/web/jcfyii/protected/extensions/bootstrap/components/Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(388): Bootstrap->init()
+#4 /home/tux/web/jcfyii/protected/lib/yii/base/CModule.php(493): CModule->getComponent('bootstrap')
+#5 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(146): CModule->preloadComponents()
+#6 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(127): CApplication->__construct('/home/tux/web/j...')
+#7 /home/tux/web/jcfyii/protected/lib/yii/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/tux/web/j...')
+#8 /home/tux/web/jcfyii/index.php(24): YiiBase::createWebApplication('/home/tux/web/j...')
+#9 {main}
+REQUEST_URI=/catalog/jCategory/view/id/4
+HTTP_REFERER=http://jcfyii/catalog/jCategory/view/id/6
+---
+2012/12/14 05:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/js/bootstrap.js".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/js/bootstrap.js
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/css/bootstrap.css".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/css/bootstrap.css
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/css/bootstrap-yii.css".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/css/bootstrap-yii.css
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/css/bootstrap-yii.css".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/css/bootstrap-yii.css
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/css/bootstrap.css".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/css/bootstrap.css
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/da6d32fb/js/bootstrap.js".' in /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('assets/da6d32fb...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/da6d32fb/js/bootstrap.js
+HTTP_REFERER=http://jcfyii/site/index
+---
+2012/12/14 05:37:08 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "JCategory.category_pic1".' in /home/tux/web/jcfyii/protected/lib/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/db/ar/CActiveRecord.php(144): CComponent->__get('category_pic1')
+#1 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(35): CActiveRecord->__get('category_pic1')
+#2 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require('/home/tux/web/j...')
+#3 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/tux/web/j...', Array, true)
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): CBaseController->renderFile('/home/tux/web/j...', Array, true)
+#5 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): CController->render('view', Array)
+#7 [internal function]: JCategoryController->actionView('12')
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(JCategoryController), Array)
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(JCategoryController), Object(ReflectionMethod), Array)
+#10 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): CController->run('view')
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('catalog/jCatego...')
+#20 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/catalog/jCategory/view/id/12
+HTTP_REFERER=http://jcfyii/user/login
+---
+2012/12/14 05:37:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "JCategory.category_pic1".' in /home/tux/web/jcfyii/protected/lib/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/db/ar/CActiveRecord.php(144): CComponent->__get('category_pic1')
+#1 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(35): CActiveRecord->__get('category_pic1')
+#2 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require('/home/tux/web/j...')
+#3 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/tux/web/j...', Array, true)
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): CBaseController->renderFile('/home/tux/web/j...', Array, true)
+#5 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): CController->render('view', Array)
+#7 [internal function]: JCategoryController->actionView('4')
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(JCategoryController), Array)
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(JCategoryController), Object(ReflectionMethod), Array)
+#10 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): CController->run('view')
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('catalog/jCatego...')
+#20 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/catalog/jCategory/view/id/4
+HTTP_REFERER=http://jcfyii/catalog/jCategory/view/id/12
+---
+2012/12/14 05:37:21 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "JCategory.category_pic1".' in /home/tux/web/jcfyii/protected/lib/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/db/ar/CActiveRecord.php(144): CComponent->__get('category_pic1')
+#1 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(35): CActiveRecord->__get('category_pic1')
+#2 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require('/home/tux/web/j...')
+#3 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/tux/web/j...', Array, true)
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): CBaseController->renderFile('/home/tux/web/j...', Array, true)
+#5 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): CController->render('view', Array)
+#7 [internal function]: JCategoryController->actionView('7')
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(JCategoryController), Array)
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(JCategoryController), Object(ReflectionMethod), Array)
+#10 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): CController->run('view')
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('catalog/jCatego...')
+#20 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/catalog/jCategory/view/id/7
+HTTP_REFERER=http://jcfyii/catalog/jCategory/view/id/4
+---
+2012/12/14 05:37:26 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/modules/rights/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/modules/rights/RightsModule.php(181): CAssetManager->publish('/home/tux/web/j...')
+#1 /home/tux/web/jcfyii/protected/modules/rights/RightsModule.php(144): RightsModule->getAssetsUrl()
+#2 /home/tux/web/jcfyii/protected/modules/rights/controllers/AssignmentController.php(26): RightsModule->registerScripts()
+#3 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(282): AssignmentController->init()
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('rights')
+#5 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#7 {main}
+REQUEST_URI=/rights
+HTTP_REFERER=http://jcfyii/catalog/jCategory/view/id/7
+---
+2012/12/14 06:05:25 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "/home/tux/web/jcfyii/protected/lib/yii/zii/widgets/assets" не существует.' in /home/tux/web/jcfyii/protected/lib/yii/web/CAssetManager.php:255
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/zii/widgets/grid/CGridView.php(298): CAssetManager->publish('/home/tux/web/j...')
+#1 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(148): CGridView->init()
+#2 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /home/tux/web/jcfyii/protected/modules/rights/views/assignment/view.php(49): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require('/home/tux/web/j...')
+#5 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/tux/web/j...', Array, true)
+#6 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): CBaseController->renderFile('/home/tux/web/j...', Array, true)
+#7 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#8 /home/tux/web/jcfyii/protected/modules/rights/controllers/AssignmentController.php(74): CController->render('view', Array)
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(50): AssignmentController->actionView()
+#10 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): CController->run('')
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('rights')
+#20 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/rights
+HTTP_REFERER=http://jcfyii/catalog/jCategory/view/id/7
+---
+2012/12/14 06:07:01 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "JCategory.category_pic1".' in /home/tux/web/jcfyii/protected/lib/yii/base/CComponent.php:131
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/lib/yii/db/ar/CActiveRecord.php(144): CComponent->__get('category_pic1')
+#1 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(35): CActiveRecord->__get('category_pic1')
+#2 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require('/home/tux/web/j...')
+#3 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): CBaseController->renderInternal('/home/tux/web/j...', Array, true)
+#4 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): CBaseController->renderFile('/home/tux/web/j...', Array, true)
+#5 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): CController->render('view', Array)
+#7 [internal function]: JCategoryController->actionView('4')
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(JCategoryController), Array)
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(JCategoryController), Object(ReflectionMethod), Array)
+#10 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): RController->filterRights(Object(CFilterChain))
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): CController->run('view')
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController('catalog/jCatego...')
+#20 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/tux/web/jcfyii/index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/catalog/jCategory/view/id/4
+HTTP_REFERER=http://jcfyii/rights/authItem/tasks
+---
+2012/12/14 06:10:18 [error] [php] file_get_contents(/home/tux/web/jcfyii/images/catalog/gcube/mouse/24wireless/G7A-60SR_m.gif): failed to open stream: No such file or directory (/home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php:197)
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php(186): call_user_func()
+#1 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(398): load()
+#2 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(420): JProduct->_createOneTumb()
+#3 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(452): JProduct->_createTumbnails()
+#4 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(485): JProduct->_getTumbs()
+#5 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(41): JProduct->getUrlCoreTumbs()
+#6 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require()
+#7 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): JCategoryController->renderInternal()
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): JCategoryController->renderFile()
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): JCategoryController->renderPartial()
+#10 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): JCategoryController->render()
+#11 unknown(0): JCategoryController->actionView()
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#13 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams()
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): JCategoryController->runAction()
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): JCategoryController->filterRights()
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#20 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#21 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): JCategoryController->runActionWithFilters()
+#22 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): JCategoryController->run()
+#23 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#24 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /home/tux/web/jcfyii/index.php(24): CWebApplication->run()
+REQUEST_URI=/catalog/jCategory/view/id/4
+2012/12/14 06:11:07 [error] [php] file_get_contents(/home/tux/web/jcfyii/images/catalog/gcube/mouse/24wireless/G7A-60SR_m.gif): failed to open stream: No such file or directory (/home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php:197)
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php(186): call_user_func()
+#1 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(398): load()
+#2 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(420): JProduct->_createOneTumb()
+#3 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(452): JProduct->_createTumbnails()
+#4 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(485): JProduct->_getTumbs()
+#5 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(41): JProduct->getUrlCoreTumbs()
+#6 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require()
+#7 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): JCategoryController->renderInternal()
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): JCategoryController->renderFile()
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): JCategoryController->renderPartial()
+#10 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): JCategoryController->render()
+#11 unknown(0): JCategoryController->actionView()
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#13 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams()
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): JCategoryController->runAction()
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): JCategoryController->filterRights()
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#20 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#21 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): JCategoryController->runActionWithFilters()
+#22 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): JCategoryController->run()
+#23 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#24 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /home/tux/web/jcfyii/index.php(24): CWebApplication->run()
+REQUEST_URI=/catalog/jCategory/view/id/4
+2012/12/14 07:16:55 [error] [php] file_get_contents(/home/tux/web/jcfyii/images/catalog/gcube/mouse/24wireless/G7A-60SR_m.gif): failed to open stream: No such file or directory (/home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php:197)
+Stack trace:
+#0 /home/tux/web/jcfyii/protected/modules/catalog/extensions/EWideImage/WideImage.php(186): call_user_func()
+#1 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(398): load()
+#2 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(420): JProduct->_createOneTumb()
+#3 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(452): JProduct->_createTumbnails()
+#4 /home/tux/web/jcfyii/protected/modules/catalog/models/JProduct.php(485): JProduct->_getTumbs()
+#5 /home/tux/web/jcfyii/protected/modules/catalog/views/jCategory/view.php(41): JProduct->getUrlCoreTumbs()
+#6 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(127): require()
+#7 /home/tux/web/jcfyii/protected/lib/yii/web/CBaseController.php(96): JCategoryController->renderInternal()
+#8 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(870): JCategoryController->renderFile()
+#9 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(783): JCategoryController->renderPartial()
+#10 /home/tux/web/jcfyii/protected/modules/catalog/controllers/JCategoryController.php(64): JCategoryController->render()
+#11 unknown(0): JCategoryController->actionView()
+#12 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#13 /home/tux/web/jcfyii/protected/lib/yii/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#14 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(309): CInlineAction->runWithParams()
+#15 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(134): JCategoryController->runAction()
+#16 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /home/tux/web/jcfyii/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#18 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CInlineFilter.php(59): JCategoryController->filterRights()
+#19 /home/tux/web/jcfyii/protected/lib/yii/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#20 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(292): CFilterChain->run()
+#21 /home/tux/web/jcfyii/protected/lib/yii/web/CController.php(266): JCategoryController->runActionWithFilters()
+#22 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(283): JCategoryController->run()
+#23 /home/tux/web/jcfyii/protected/lib/yii/web/CWebApplication.php(142): CWebApplication->runController()
+#24 /home/tux/web/jcfyii/protected/lib/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /home/tux/web/jcfyii/index.php(24): CWebApplication->run()
+REQUEST_URI=/catalog/jCategory/view/id/4
