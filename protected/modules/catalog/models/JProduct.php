@@ -350,7 +350,7 @@ class JProduct extends CActiveRecord {
     /**
      * Тумбнэйлы находятся в папке "assets/tumb/ПутьФотоКатегории" 
      * Так же как и с самими фото, хочу предотвратить скопления тысяч файлов
-     * в одной папке. А assets выбран потому, что это папке "генерируемых" ресурсов,
+     * в одной папке. А assets выбран потому, что это папка "генерируемых" ресурсов,
      * которую можно (и нужно) периодически просто очищать.
      * @return string Путь к папке с тумбнэйлами.
      */
@@ -417,8 +417,14 @@ class JProduct extends CActiveRecord {
             $picPath = $srcDir . '/' . $pic;
             $tumbName = 'tb' . '_' . $w_size . '_' . $h_size . '_' . $pic;
             $tumbPath = $dstDir . '/' . $tumbName;
-            if ($this->_createOneTumb($picPath, $tumbPath, $w_size, $h_size))
-                $tumbNames[] = $tumbName;
+            //Если фото отсутствует, присваиваем имени тумбнэйла флаг PIC_NOTEXIST
+            if (!file_exists($picPath)) {
+                $tumbNames[] ="PIC_NOTEXIST";
+            //Иначе создать тумбнэйл и в массив имен поместить имя
+            } else {
+                if ($this->_createOneTumb($picPath, $tumbPath, $w_size, $h_size))
+                    $tumbNames[] = $tumbName;
+            }
         }
         return $tumbNames;
     }
@@ -432,7 +438,15 @@ class JProduct extends CActiveRecord {
     private function _getTumbsURL(array $tumbNames, $relPathCat) {
         $tumbsUrl = array();
         foreach ($tumbNames as $tumb) {
-            $tumbsUrl[] = Yii::app()->createUrl(Yii::getPathOfAlias('thumburl') . '/' . $relPathCat . '/' . $tumb);
+            //Если фото отсутствует, опубликовать blank.gif из ресурсов модуля 
+            //и отдать его URl вместо фото.
+            if($tumb == "PIC_NOTEXIST") {
+                $tumbsUrl[] =  Yii::app()->assetManager->publish(
+                    Yii::getPathOfAlias('mcatalog.assets.images').'/blank.gif'
+                );
+            } else { 
+                $tumbsUrl[] = Yii::app()->createUrl(Yii::getPathOfAlias('thumburl') . '/' . $relPathCat . '/' . $tumb);
+            }
         }
         return $tumbsUrl;
     }
@@ -446,10 +460,15 @@ class JProduct extends CActiveRecord {
      * @return array of URL Массив URL тумбнэйлов
      */
     private function _getTumbs(array $picNames, $w_size, $h_size) {
+        //Относительный путь к фото
         $relPathCat = $this->CategoryMain->category_photodir;
+        //Абсолютный путь к фото
         $srcDir = Yii::getPathOfAlias('photodir') . '/' . $relPathCat;
+        //Абсолютный путь к тумбнэйлам
         $dstDir = Yii::getPathOfAlias('thumbdir') . '/' . $relPathCat;
+        //Создание (при необходимости) и получение массива имен тумбнэйлов
         $tumbNames = $this->_createTumbnails($picNames, $srcDir, $dstDir, $w_size, $h_size);
+        //Получение массива URL  тумбнэйлов
         $thumbsUrl = $this->_getTumbsURL($tumbNames, $relPathCat);
         return $thumbsUrl;
     }
@@ -492,6 +511,4 @@ class JProduct extends CActiveRecord {
         } 
         return $coreTumbs;
     }
-    
-    
 }

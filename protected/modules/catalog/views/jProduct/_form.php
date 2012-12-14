@@ -11,7 +11,6 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
     'enableAjaxValidation' => false,
         ));
 ?>
-
 <p class="help-block">Поля, отмеченные <span class="required">*</span> обязательны.</p>
 <div class="tabbable"> <!-- Only required for left/right tabs -->
     <ul class="nav nav-tabs">

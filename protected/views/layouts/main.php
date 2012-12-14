@@ -14,6 +14,7 @@
     <body>
         <?php require_once 'add/_menu.php'; ?>
         <div class="container" id="page">
+
             <div id="header">
                 <?php
                 if (isset($this->breadcrumbs)):
@@ -31,5 +32,6 @@
             <?php echo Yii::powered(); ?>
             </div><!-- footer -->
         </div><!-- page -->
+
     </body>
 </html>
