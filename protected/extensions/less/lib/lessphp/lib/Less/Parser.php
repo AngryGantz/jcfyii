@@ -498,7 +498,7 @@ class Parser {
     {
         $c = ord($this->input[$this->pos]);
         if (($c > 57 || $c < 45) || $c === 47) {
-    return;
+            return;
         }
 
         if ($value = $this->match('/^(-?\d*\.?\d+)(px|%|em|pc|ex|in|deg|s|ms|pt|cm|mm|rad|grad|turn)?/')) {

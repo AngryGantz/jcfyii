@@ -2,11 +2,11 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Profiliavimo kreipinių dėklas
+			Profiliavimo kreipiniеЁ dд≈klas
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Procedūra</th>
+	    <th>Procedе╚ra</th>
 		<th>Laikas (s)</th>
 	</tr>
 <?php

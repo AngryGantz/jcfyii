@@ -33,12 +33,12 @@ if (JHUsers::isAdmin()) {
         <!-- Блок показа цен -->
         <div class="cat_price">
             <div class="alert alert-success" >
-                <p><strong>Рекомендованная розничная цена </strong><?php echo $model->product_retprice ?></p>
+                <p><strong>Рекомендованная розничная цена <?php echo $model->product_retprice ?>Тг.</strong></p>
             </div>
             
            <?php  if (JHUsers::isDealer()) { ?>
             <div class="alert alert-message" >
-                <p><strong>Дилерская цена </strong><?php echo $model->product_retprice ?></p>
+                <p><strong>Дилерская цена <?php echo $model->product_retprice ?>Тг.</strong></p>
             </div>
            <?php } ?>
         </div>

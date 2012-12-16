@@ -20,12 +20,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Neispravan zahtjev</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Zahtjev se ne može procesuirati od strane poslužitelja zbog pogrešne sintakse.
+Zahtjev se ne moе╬e procesuirati od strane posluе╬itelja zbog pogreе║ne sintakse.
 Molimo vas da ne ponavljate zahtjev bez modifikacije.
 
 </p>
 <p>
-Ako mislite da je ovo greška web servera, molimo kontaktirajte  <?php echo $data['admin']; ?>.
+Ako mislite da je ovo greе║ka web servera, molimo kontaktirajte  <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -82,7 +82,6 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
             ));
             ?>
         </div>
-            
         <?php $this->endWidget(); ?>
 
         <!-- Запуск prettyPhoto по готовности документа -->

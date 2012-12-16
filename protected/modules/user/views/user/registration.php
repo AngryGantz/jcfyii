@@ -106,9 +106,12 @@ $this->breadcrumbs = array(
         ?>
             <?php if (UserModule::doCaptcha('registration')): ?>
             <div class="row">
-                <?php echo $form->labelEx($model, 'verifyCode'); ?>
-
-        <?php $this->widget('CCaptcha'); ?>
+                <?php
+                    echo $form->labelEx($model, 'verifyCode'); 
+        if(CCaptcha::checkRequirements()) {
+        $this->widget('CCaptcha');
+        } else echo "Всетаки чего-то не хватает";
+        ?>
         <?php echo $form->textField($model, 'verifyCode'); ?>
         <?php echo $form->error($model, 'verifyCode'); ?>
 

@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			Programos žurnalas
+			Programos е╬urnalas
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">Laiko žyma</th>
+	    <th style="width:120px">Laiko е╬yma</th>
 		<th>Lygmuo</th>
 		<th>Kategorija</th>
-		<th>Pranešimas</th>
+		<th>Praneе║imas</th>
 	</tr>
 <?php
 $colors=array(

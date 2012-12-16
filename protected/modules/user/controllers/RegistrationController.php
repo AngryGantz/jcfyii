@@ -3,7 +3,7 @@
 class RegistrationController extends Controller
 {
 	public $defaultAction = 'registration';
-	public $layout = '/layouts/column1';      	
+	public $layout = '/layouts/column1clear';      	
 
 
 	/**
@@ -13,15 +13,20 @@ class RegistrationController extends Controller
 	{
 		return (isset($_POST['ajax']) && $_POST['ajax']==='registration-form')?array():array(
 			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
-			),
-		);
+'class' => 'application.extensions.kcaptcha.KCaptchaAction',
+'maxLength' => 6,
+'minLength' => 5,
+'foreColor' => array(mt_rand(0, 100), mt_rand(0, 100),mt_rand(0, 100)),
+'backColor' => array(mt_rand(200, 210), mt_rand(210, 220),mt_rand(220, 230)) 
+                //'class'=>'CCaptchaAction',
+                //'backColor'=>0xFFFFFF,
+          ),
+        );
 	}
 	/**
 	 * Registration user
 	 */
-	public function actionRegistration() {
+    public function actionRegistration() {
             $model = new RegistrationForm;
             $profile=new Profile;
             $profile->regMode = true;

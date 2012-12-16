@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * CBreadcrumbs class file.
@@ -46,6 +46,7 @@
  * @since 1.1
  */
 class CBreadcrumbs extends CWidget {
+
 
     /**
      * @var string the tag name for the breadcrumbs container tag. Defaults to 'div'.
